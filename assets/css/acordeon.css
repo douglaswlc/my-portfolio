@@ -65,3 +65,63 @@
   height: auto;
   opacity: 1;
 }
+
+/*
+  ----------------Estilos para o acordeon----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: column;  // Alinha os elementos verticalmente em coluna
+  width: 100%;  // Ocupa toda a largura disponível
+  margin: 1rem 0;  // Adiciona margem superior e inferior de 1rem
+  border: 1px solid #fff;  // Adiciona uma borda branca
+  border-radius: 1rem;  // Arredonda os cantos
+  transition: 0.25s;  // Define uma transição suave de 0.25 segundos
+
+----------------Estilos para o acordeon quando aberto ou sob hover----------------
+  background-color: #55569e;  // Altera a cor de fundo para azul escuro
+  border-color: #55569e;  // Altera a cor da borda para azul escuro
+
+----------------Estilos para o gatilho do acordeon----------------
+  display: flex;  // Ativa o layout flexível para o gatilho
+  flex-direction: row;  // Alinha os elementos horizontalmente em linha
+  justify-content: space-between;  // Distribui os elementos com espaço entre eles
+  align-items: center;  // Centraliza os elementos verticalmente
+  font-size: 1.5rem;  // Define o tamanho da fonte do gatilho
+  font-weight: 700;  // Define o peso da fonte como negrito
+  padding: 1rem 2rem;  // Adiciona espaçamento interno ao gatilho
+  background-color: transparent;  // Deixa o fundo transparente
+  color: #fff;  // Define a cor do texto como branco
+  border: none;  // Remove a borda do gatilho
+
+----------------Estilos para o título dentro do gatilho----------------
+  margin: 0;  // Remove as margens padrão do título
+  font-size: 1.5rem;  // Define o tamanho da fonte do título
+  text-align: start;  // Alinha o texto à esquerda
+
+----------------Estilos para o pseudo-elemento depois do gatilho----------------
+  content: "";  // Cria um pseudo-elemento vazio
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  width: 1.5rem;  // Define a largura como 1.5rem
+  height: 1.5rem;  // Define a altura como 1.5rem
+  background-image: url("/assets/img/icons/arrow-top.svg");  // Define a imagem de fundo como uma seta para cima
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  transition: 0.25s;  // Define uma transição suave de 0.25 segundos
+
+----------------Gira a seta quando o acordeon está aberto----------------
+  transform: rotate(180deg);  // Rotaciona a seta em 180 graus
+
+----------------Altera o cursor para indicar interatividade----------------
+  cursor: pointer;  // Muda o cursor para uma mãozinha ao passar o mouse
+
+----------------Estilos para o conteúdo do acordeon----------------
+  overflow: hidden;  // Esconde o conteúdo inicialmente
+  height: 0;  // Define a altura como 0 para esconder o conteúdo
+  opacity: 0;  // Define a opacidade como 0 para deixar o conteúdo transparente
+  transition: opacity 0.25s ease-in-out;  // Transição suave de opacidade ao abrir/fechar
+
+----------------Exibe o conteúdo quando o acordeon está aberto----------------
+  display: block;  // Exibe o conteúdo
+  padding: 0 1rem 1rem 2rem;  // Adiciona espaçamento interno ao conteúdo
+  height: auto;  // Ajusta a altura automaticamente para mostrar o conteúdo
+  opacity: 1;  // Torna o conteúdo visível com opacidade total
+*/

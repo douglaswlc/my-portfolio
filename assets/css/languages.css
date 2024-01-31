@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap; // deixa um na frente do outro e ajusta conforme o tamanho da tela
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -26,3 +26,33 @@
   background-image: url("/assets/img/icons/check.svg");
   margin-right: 0.5rem;
 }
+
+/* 
+
+----------------Define a seção de idiomas como um container flexível com layout em linha----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: row;  // Alinha os itens horizontalmente em linha
+  align-items: center;  // Centraliza os itens verticalmente
+  flex-wrap: wrap;  // Permite que os itens se quebrem em várias linhas se necessário
+  margin: 0;  // Remove margens padrão
+  padding: 0;  // Remove espaçamento interno padrão
+  list-style: none;  // Remove marcadores de lista
+
+----------------Estilos para cada item de idioma----------------
+  display: flex;  // Ativa o layout flexível para cada item
+  flex-direction: row;  // Alinha os elementos do item horizontalmente
+  align-items: center;  // Centraliza os elementos verticalmente no item
+  padding-right: 1rem;  // Adiciona espaçamento à direita de cada item
+  font-weight: 700;  // Define o peso da fonte como negrito
+
+----------------Estilos para pseudo-elementos antes de cada item de idioma----------------
+  content: "";  // Cria um pseudo-elemento antes do item
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  width: 1rem;  // Define a largura do pseudo-elemento
+  height: 1rem;  // Define a altura do pseudo-elemento
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  background-image: url("/assets/img/icons/check.svg");  // Define a imagem de fundo como um ícone de check
+  margin-right: 0.5rem;  // Adiciona margem à direita do ícone
+s
+*/

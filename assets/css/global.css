@@ -64,3 +64,57 @@ a:hover {
     width: 70vw;
   }
 }
+
+/* 
+
+----------------Aplica box-sizing border-box a todos os elementos----------------
+  box-sizing: border-box;  // Inclui bordas e espaçamentos no cálculo da largura e altura
+  font-family: "Open Sans", sans-serif;  // Define a fonte padrão
+
+----------------Carrega a fonte Neue Machina----------------
+  font-family: "Neue Machina";
+  src: url("../fonts/neue-machina-regular.otf");  // Caminho para o arquivo da fonte
+
+----------------Estilos básicos do corpo da página----------------
+  background-color: #000;  // Define a cor de fundo como preto
+  color: #fff;  // Define a cor do texto como branco
+
+----------------Estilos para links----------------
+  color: #fff;  // Define a cor dos links como branco
+  text-decoration: none;  // Remove o sublinhado dos links
+
+  text-decoration: underline;  // Adiciona sublinhado aos links ao passar o mouse
+
+----------------Estilos para a seção principal----------------
+  margin: 1rem;  // Adiciona margem à volta da seção
+  padding: 1rem;  // Adiciona espaçamento interno à seção
+  border: 1px solid #fff;  // Adiciona uma borda branca à seção
+  border-radius: 1rem;  // Arredonda os cantos da seção
+
+----------------Estilos para pseudo-elementos antes e depois da seção principal----------------
+  content: "";  // Cria pseudo-elementos vazios
+  background-image: url("../img/background.svg");  // Define a imagem de fundo
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  display: inline-block;  // Exibe os pseudo-elementos como blocos
+  position: fixed;  // Fixa os pseudo-elementos na tela
+  top: 0;  // Posiciona no topo da tela
+  left: 0;  // Posiciona à esquerda da tela
+  width: 140vw;  // Define a largura como 140% da viewport
+  height: 100vh;  // Define a altura como 100% da viewport
+  z-index: -1;  // Coloca os pseudo-elementos atrás do conteúdo principal
+
+  content: "";  // Repete a criação do pseudo-elemento
+  top: auto;  // Posiciona no final da tela
+  left: auto;  // Posiciona à direita da tela
+  bottom: 0;  // Posiciona no final da tela
+  right: 0;  // Posiciona à direita da tela
+  transform: rotate(180deg);  // Rotaciona a imagem de fundo em 180 graus
+
+----------------Estilos específicos para telas com largura mínima de 768px----------------
+    max-width: 1024px;  // Define a largura máxima da seção principal
+    margin: 1rem auto;  // Centraliza a seção principal na tela
+
+    width: 70vw;  // Reduz a largura dos pseudo-elementos para 70% da viewport
+
+*/

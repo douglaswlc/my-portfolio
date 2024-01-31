@@ -35,3 +35,42 @@
   background-image: url("../img/icons/github.svg");
   margin-right: 0.5rem;
 }
+
+/* 
+
+----------------Define a seção de portfólio como um container flexível com layout em coluna----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: column;  // Alinha os itens verticalmente em coluna
+  justify-content: flex-start;  // Alinha os itens no início do container
+  width: 100%;  // Ocupa toda a largura disponível
+  margin: 0;  // Remove margens padrão
+  padding: 0;  // Remove espaçamento interno padrão
+  list-style: none;  // Remove marcadores de lista
+
+----------------Estilos para cada item do portfólio----------------
+  display: flex;  // Ativa o layout flexível para cada item
+  flex-direction: column;  // Alinha os elementos do item verticalmente
+  justify-content: flex-start;  // Alinha os elementos no início do item
+  margin: 1rem 0;  // Adiciona margem superior e inferior de 1rem
+
+----------------Estilos para títulos dentro dos itens do portfólio----------------
+  display: flex;  // Ativa o layout flexível para o título
+  flex-direction: row;  // Alinha os elementos do título horizontalmente
+  align-items: center;  // Centraliza os elementos verticalmente no título
+  font-size: 1.25rem;  // Define o tamanho da fonte do título
+  font-weight: 700;  // Define o peso da fonte como negrito
+  margin: 0;  // Remove margens superior e esquerda
+  margin-bottom: 0.5rem;  // Adiciona margem inferior de 0.5rem
+
+----------------Estilos específicos para títulos com classe "github"----------------
+  content: "";  // Cria um pseudo-elemento antes do título
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  width: 1rem;  // Define a largura do pseudo-elemento
+  height: 1rem;  // Define a altura do pseudo-elemento
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  background-image: url("../img/icons/github.svg");  // Define a imagem de fundo como um ícone do GitHub
+  margin-right: 0.5rem;  // Adiciona margem à direita do ícone
+
+
+*/

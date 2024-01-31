@@ -93,3 +93,62 @@
     grid-area: information;
   }
 }
+
+/*
+----------------Estilos para o cabeçalho----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: column;  // Alinha os elementos verticalmente em coluna
+  align-items: center;  // Centraliza os elementos horizontalmente
+  position: relative;  // Permite posicionar elementos relativamente dentro do cabeçalho
+
+----------------Pseudo-elemento depois do cabeçalho----------------
+  content: "";  // Cria um pseudo-elemento vazio
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  position: absolute;  // Posiciona o pseudo-elemento absolutamente
+  top: 1rem;  // Posiciona 1rem da parte superior
+  right: 1rem;  // Posiciona 1rem da parte direita
+  width: 2rem;  // Define a largura como 2rem
+  height: 2rem;  // Define a altura como 2rem
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  background-image: url("../img/icons/header.svg");  // Define a imagem de fundo como um ícone
+
+----------------Estilos para a foto do perfil----------------
+  width: 200px;  // Define a largura da foto
+  height: 200px;  // Define a altura da foto
+  border-radius: 50%;  // Arredonda a foto para formar um círculo
+
+----------------Estilos para o título do cabeçalho----------------
+  font-family: "Neue Machina";  // Define a fonte do título
+  text-align: center;  // Centraliza o texto do título
+
+----------------Estilos para a seção de informações----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: column;  // Alinha os elementos verticalmente em coluna
+  align-items: flex-start;  // Alinha os elementos à esquerda
+  width: 100%;  // Ocupa toda a largura disponível
+
+----------------Estilos para cada informação----------------
+  display: flex;  // Ativa o layout flexível para cada informação
+  flex-direction: row;  // Alinha os elementos horizontalmente em linha
+  align-items: center;  // Centraliza os elementos verticalmente
+  margin: 0.5rem;  // Adiciona margem de 0.5rem a cada informação
+  font-size: 1.125rem;  // Define o tamanho da fonte
+
+----------------Estilos para pseudo-elementos antes de cada informação----------------
+  content: "";  // Cria um pseudo-elemento vazio antes da informação
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  width: 1rem;  // Define a largura do pseudo-elemento como 1rem
+  height: 1rem;  // Define a altura do pseudo-elemento como 1rem
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  margin-right: 0.5rem;  // Adiciona margem à direita do ícone
+
+----------------Estilos específicos para cada tipo de informação----------------
+  background-image: url("../img/icons/jobs.svg");  // Ícone para a informação de trabalho e os outros mesma coisa
+
+----------------Estilos específicos para telas com largura mínima de 768px----------------
+    display: grid;  // Muda o layout para grid
+    grid-template-areas:
+      "photo title"  // Define as áreas da grid
+*/

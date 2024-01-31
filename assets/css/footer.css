@@ -10,3 +10,16 @@ footer {
 footer img {
   max-width: 100px;
 }
+
+/*
+----------------Estilos para o rodapé----------------
+  width: 100%;  // Ocupa toda a largura disponível
+  display: flex;  // Ativa o layout flexível
+  flex-direction: row;  // Alinha os itens horizontalmente em linha
+  justify-content: flex-end;  // Alinha os itens à direita do container
+  align-items: center;  // Centraliza os itens verticalmente
+  padding: 1rem;  // Adiciona espaçamento interno de 1rem
+
+----------------Estilos para imagens dentro do rodapé----------------
+  max-width: 100px;  // Define a largura máxima das imagens como 100px
+*/

@@ -26,3 +26,31 @@
   background-image: url("/assets/img/icons/calendar.svg");
   margin-right: 0.5rem;
 }
+
+/*
+----------------Define a seção de experiência como um container flexível com layout em coluna----------------
+  display: flex;  // Ativa o layout flexível
+  flex-direction: column;  // Alinha os itens verticalmente em coluna
+  margin: 0;  // Remove margens padrão
+  padding: 0;  // Remove espaçamento interno padrão
+  list-style: none;  // Remove marcadores de lista
+
+----------------Estilos para cada item de experiência----------------
+  margin-bottom: 1rem;  // Adiciona margem inferior de 1rem a cada item
+
+
+----------------Estilos para a seção de período dentro de cada item de experiência----------------
+  display: flex;  // Ativa o layout flexível para a seção de período
+  flex-direction: row;  // Alinha os elementos da seção horizontalmente
+  align-items: center;  // Centraliza os elementos verticalmente na seção
+
+----------------Estilos para pseudo-elementos antes da seção de período----------------
+  content: "";  // Cria um pseudo-elemento vazio antes da seção
+  display: inline-block;  // Exibe o pseudo-elemento como um bloco
+  width: 1rem;  // Define a largura do pseudo-elemento como 1rem
+  height: 1rem;  // Define a altura do pseudo-elemento como 1rem
+  background-repeat: no-repeat;  // Não repete a imagem de fundo
+  background-size: contain;  // Ajusta a imagem de fundo ao tamanho do elemento
+  background-image: url("/assets/img/icons/calendar.svg");  // Define a imagem de fundo como um ícone de calendário
+  margin-right: 0.5rem;  // Adiciona margem à direita do ícone
+*/
